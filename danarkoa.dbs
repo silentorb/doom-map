@@ -28,9 +28,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = 347.1999f;
-		viewpositiony = 1203.489f;
-		viewscale = 4.078653f;
+		viewpositionx = -1317.219f;
+		viewpositiony = 542.6783f;
+		viewscale = 1.856464f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -41,7 +41,7 @@ maps
 			backoffsety = 0;
 			backscalex = 100;
 			backscaley = 100;
-			gridsize = 32;
+			gridsize = 16;
 			gridrotate = 0;
 			gridoriginx = 0;
 			gridoriginy = 0;
@@ -73,6 +73,31 @@ maps
 			autocloseonsuccess = true;
 			exitcodeiserror = true;
 			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512;
+					outerright = 0;
+					outertop = 512;
+					outerbottom = 0;
+				}
+			}
+			
+			stairsectorbuilder
+			{
+				
+				prefabs
+				{
+				}
+			}
 		}
 	}
 }
