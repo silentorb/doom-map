@@ -1,0 +1,7 @@
+adddefaultmap {
+	NoJump
+}
+
+map MAP01 "Danarkoa" {
+	sky1 = "SKY2", 0
+}

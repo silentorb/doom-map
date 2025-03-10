@@ -10,6 +10,16 @@ maps
 		
 		resources
 		{
+			
+			resource0
+			{
+				type = 1;
+				location = "E:\\dev\\games\\danarkoa\\mod";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+				requiredarchives = "";
+			}
 		}
 		defaultfloortexture = "SLIME01";
 		defaultceiltexture = "CEIL1_1";
@@ -28,9 +38,9 @@ maps
 		overrideceilheight = false;
 		overridebrightness = false;
 		uselongtexturenames = true;
-		viewpositionx = -1317.219f;
-		viewpositiony = 542.6783f;
-		viewscale = 1.856464f;
+		viewpositionx = -988.2259f;
+		viewpositiony = 106.0272f;
+		viewscale = 1.856463f;
 		scriptcompiler = "zdoom_acs.cfg";
 		
 		grid
@@ -97,6 +107,29 @@ maps
 				prefabs
 				{
 				}
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+				activetab = true;
 			}
 		}
 	}
